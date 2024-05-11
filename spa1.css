@@ -1,0 +1,167 @@
+#top_nav{
+    background-color:white;
+
+   }
+
+   #top_nav .navbar-brand {
+    padding: 5px;
+    border: 2px solid #007bff;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    
+}
+#top_nav .navbar-brand:hover {
+  background-color:#007bff /* Change background color on hover */
+}
+
+  
+
+.navbar-expand-lg .navbar-nav .nav-link {
+color: black;
+font-size: 18px;
+}
+.form-control{
+position: relative;
+box-shadow: 0px 1px 7px 1px;
+border-radius:2%;
+border:0.5px solid red;
+}
+.carousel-item{
+ width:1550px;
+ height: 600px;
+}
+ /* Reduce the width and height of carousel items */
+ .carousel-item {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Media query for screens smaller than 768px (phones and below) */
+@media (max-width: 767.98px) {
+/* Adjust the top navigation brand padding */
+#top_nav .navbar-brand {
+  padding: 5px;
+}
+
+/* Reduce the font size of navbar links */
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+/* Reduce the width and height of carousel items */
+.carousel-item {
+  width: 100%;
+  height: auto;
+}
+}
+
+/* CSS for hover effect and border */
+.navbar-nav .nav-link {
+    border: 2px solid transparent; /* Add a transparent border to all navbar links */
+    transition: border-color 0.3s ease; /* Add transition effect for smooth color change */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff0000; /* Change to your desired hover color */
+    border-color: #ff0000; /* Change to match hover color */
+  }
+
+
+  /* Main Section */
+#main {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#main img {
+  max-width: 100%;
+}
+
+/* Features Section */
+#features {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+.feature img {
+  max-width: 100%;
+}
+
+/* Call-to-Action Section */
+#cta {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #cc5500;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  margin-right: 20px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  
+  margin: 0 5px;
+  border-radius: 20%;
+}
+
+
+/* .icon-facebook {
+  background-image: url('facebook-icon.png');
+}
+
+.icon-twitter {
+  background-image: url('twitter-icon.png');
+}
+
+.icon-linkedin {
+  background-image: url('linkedin-icon.png');
+} */
+
+
+ 
